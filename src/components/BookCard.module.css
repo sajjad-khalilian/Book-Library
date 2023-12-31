@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    background-color: #4e4e4e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.card img{
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.info{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info span{
+    color: rgb(163, 163, 163);
+    margin-right: 20px;
+}
+.card button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: fit-content;
+    transition: 0.4s;
+}
+.card button:hover{
+    transform: scale(1.2);
+}
